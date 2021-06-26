@@ -1,9 +1,12 @@
 <?php
 
+error_reporting(E_ALL);
+ini_set('display_errors', 'On');
+
 include "database.php";
 $que = mysqli_query($db_conn, "SELECT * FROM daful_konfigurasi");
 $hsl = mysqli_fetch_array($que);
-$timestamp = strtotime($hsl['tgl_pengumuman']);
+// $timestamp = strtotime($hsl['tgl_pengumuman']);
 //echo $timestamp;
 
 ?>
@@ -71,7 +74,7 @@ $timestamp = strtotime($hsl['tgl_pengumuman']);
             $cabang = ucfirst($data['cabang']);
             $instansi = strtoupper($data['unit']);
 
-            $belum = '<div class="alert alert-danger" role="alert">Daftar Ulang untuk '.strtoupper($data['instansi']).' belum tersedia.</div>';
+            $belum = '<div class="alert alert-danger" role="alert">Daftar Ulang untuk '.strtoupper($data['unit']).' belum tersedia.</div>';
             // var_dump($data['id']);
             // die();
 
