@@ -17,7 +17,7 @@ $timestamp = strtotime($hsl['tgl_pengumuman']);
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="aplikasi sederhana untuk verifikasi daftar ulang di YP IPPI Jakarta">
     <!-- <meta name="author" content="slamet.bsan@gmail.com"> -->
-    <title>Pengumuman Kelulusan</title>
+    <title>Daftar Ulang Online</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/jasny-bootstrap.min.css" rel="stylesheet">
 	<link href="css/kelulusan.css" rel="stylesheet">
