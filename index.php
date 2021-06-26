@@ -15,8 +15,8 @@ $timestamp = strtotime($hsl['tgl_pengumuman']);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="aplikasi sederhana untuk menampilkan pengumuman hasil ujian nasional secara online">
-    <meta name="author" content="slamet.bsan@gmail.com">
+    <meta name="description" content="aplikasi sederhana untuk verifikasi daftar ulang di YP IPPI Jakarta">
+    <!-- <meta name="author" content="slamet.bsan@gmail.com"> -->
     <title>Pengumuman Kelulusan</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/jasny-bootstrap.min.css" rel="stylesheet">
