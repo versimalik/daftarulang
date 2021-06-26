@@ -24,6 +24,12 @@ $hsl = mysqli_fetch_array($que);
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/jasny-bootstrap.min.css" rel="stylesheet">
 	<link href="css/kelulusan.css" rel="stylesheet">
+    <style type="text/css">
+        .tdpad{
+            padding: 8px;
+            vertical-align: middle;
+        }
+    </style>
 </head>
 
 <body>
@@ -124,7 +130,57 @@ $hsl = mysqli_fetch_array($que);
             <!-- </span> -->
         </div>
     </form>
+
+        <br>
+        <br>
+        <div align="center" style="font-size: 18px;">
+            BIAYA ADMINISTRASI DAFTAR ULANG
         </div>
+        <br>
+        <table border='1' width="100%" style="font-size: 18px;">
+            <tr style="text-align: center; font-weight: bolder;">
+                <td class="tdpad">No</td>
+                <td class="tdpad">Unit</td>
+                <td class="tdpad">Biaya</td>
+                <td class="tdpad">Ket</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">1</td>
+                <td class="tdpad">SMP YP IPPI Petojo</td>
+                <td class="tdpad">Rp. 300.000</td>
+                <td class="tdpad"></td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">2</td>
+                <td class="tdpad">SMA YP IPPI Petojo</td>
+                <td class="tdpad">Rp. 350.000</td>
+                <td class="tdpad"></td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">3</td>
+                <td class="tdpad">SMK YP IPPI Petojo</td>
+                <td class="tdpad">Rp. 350.000</td>
+                <td class="tdpad"></td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">4</td>
+                <td class="tdpad">SMP YP IPPI Cakung</td>
+                <td class="tdpad">Rp. 350.000</td>
+                <td class="tdpad"></td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">5</td>
+                <td class="tdpad">SMA YP IPPI Cakung</td>
+                <td class="tdpad">Rp. 350.000</td>
+                <td class="tdpad"></td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">6</td>
+                <td class="tdpad">SMK YP IPPI Cakung</td>
+                <td class="tdpad">Rp. 350.000</td>
+                <td class="tdpad"></td>
+            </tr>
+        </table>
     </div><!-- /.container -->
 <?php  
         }
@@ -148,7 +204,56 @@ $hsl = mysqli_fetch_array($que);
             <!-- </span> -->
         </div>
     </form>
-		</div>
+        <br>
+        <br>
+		<div align="center" style="font-size: 18px;">
+            BIAYA ADMINISTRASI DAFTAR ULANG
+        </div>
+        <br>
+        <table border='1' width="100%" style="font-size: 18px;">
+            <tr style="text-align: center; font-weight: bolder;">
+                <td class="tdpad">No</td>
+                <td class="tdpad">Unit</td>
+                <td class="tdpad">Biaya</td>
+                <td class="tdpad">Ket</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">1</td>
+                <td class="tdpad">SMP YP IPPI Petojo</td>
+                <td class="tdpad">Rp. 300.000</td>
+                <td class="tdpad"></td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">2</td>
+                <td class="tdpad">SMA YP IPPI Petojo</td>
+                <td class="tdpad">Rp. 350.000</td>
+                <td class="tdpad"></td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">3</td>
+                <td class="tdpad">SMK YP IPPI Petojo</td>
+                <td class="tdpad">Rp. 350.000</td>
+                <td class="tdpad"></td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">4</td>
+                <td class="tdpad">SMP YP IPPI Cakung</td>
+                <td class="tdpad">Rp. 350.000</td>
+                <td class="tdpad"></td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">5</td>
+                <td class="tdpad">SMA YP IPPI Cakung</td>
+                <td class="tdpad">Rp. 350.000</td>
+                <td class="tdpad"></td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">6</td>
+                <td class="tdpad">SMK YP IPPI Cakung</td>
+                <td class="tdpad">Rp. 350.000</td>
+                <td class="tdpad"></td>
+            </tr>
+        </table>
     </div><!-- /.container -->
 <!-- form ujian========================================================     -->	
 
