@@ -264,6 +264,11 @@ if(mysqli_num_rows($hasil) > 0)
 											<td>'.$jk.'</td>
 										</tr>
 										<tr>
+											<td>Nama Wali</td>
+											<td>:</td>
+											<td>'.$data['wali'].'</td>
+										</tr>
+										<tr>
 											<td>Nomor Telepon</td>
 											<td>:</td>
 											<td>'.$data['no_telp'].'</td>
@@ -289,7 +294,7 @@ if(mysqli_num_rows($hasil) > 0)
 						<td width="60%" colspan="2"></td>
 						<td width="40%" style="padding-left:4px;">
 							<div>Jakarta, '.tgl_indo(date("Y-m-d")).'</div>
-							<div>Kepala '.$unit.'</div>
+							<div>Kepala '.$unit.' YP IPPI '.$cabang.'</div>
 										<!-- <div style="margin-top:30px;"><img src="img/ttdpakyusuf.jpeg" height="90"/></div>-->
 										<div style="margin-top:50px;">'.$kepsek.'</div>
 						</td>				
