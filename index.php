@@ -146,7 +146,7 @@ $hsl = mysqli_fetch_array($que);
             </tr>
             <tr>
                 <td style="text-align: center;">1</td>
-                <td class="tdpad">SMP YP IPPI Petojo</td>
+                <td class="tdpad">SMP IT YP IPPI Petojo</td>
                 <td class="tdpad">Rp. 300.000</td>
                 <td class="tdpad"></td>
             </tr>
@@ -164,19 +164,19 @@ $hsl = mysqli_fetch_array($que);
             </tr>
             <tr>
                 <td style="text-align: center;">4</td>
-                <td class="tdpad">SMP YP IPPI Cakung</td>
+                <td class="tdpad">SMP IT YP IPPI Cakung</td>
                 <td class="tdpad">Rp. 350.000</td>
                 <td class="tdpad"></td>
             </tr>
             <tr>
                 <td style="text-align: center;">5</td>
-                <td class="tdpad">SMA YP IPPI Cakung</td>
+                <td class="tdpad">SMA IT YP IPPI Cakung</td>
                 <td class="tdpad">Rp. 350.000</td>
                 <td class="tdpad"></td>
             </tr>
             <tr>
                 <td style="text-align: center;">6</td>
-                <td class="tdpad">SMK YP IPPI Cakung</td>
+                <td class="tdpad">SMK IT YP IPPI Cakung</td>
                 <td class="tdpad">Rp. 350.000</td>
                 <td class="tdpad"></td>
             </tr>
@@ -219,7 +219,7 @@ $hsl = mysqli_fetch_array($que);
             </tr>
             <tr>
                 <td style="text-align: center;">1</td>
-                <td class="tdpad">SMP YP IPPI Petojo</td>
+                <td class="tdpad">SMP IT YP IPPI Petojo</td>
                 <td class="tdpad">Rp. 300.000</td>
                 <td class="tdpad"></td>
             </tr>
@@ -237,19 +237,19 @@ $hsl = mysqli_fetch_array($que);
             </tr>
             <tr>
                 <td style="text-align: center;">4</td>
-                <td class="tdpad">SMP YP IPPI Cakung</td>
+                <td class="tdpad">SMP IT YP IPPI Cakung</td>
                 <td class="tdpad">Rp. 350.000</td>
                 <td class="tdpad"></td>
             </tr>
             <tr>
                 <td style="text-align: center;">5</td>
-                <td class="tdpad">SMA YP IPPI Cakung</td>
+                <td class="tdpad">SMA IT YP IPPI Cakung</td>
                 <td class="tdpad">Rp. 350.000</td>
                 <td class="tdpad"></td>
             </tr>
             <tr>
                 <td style="text-align: center;">6</td>
-                <td class="tdpad">SMK YP IPPI Cakung</td>
+                <td class="tdpad">SMK IT YP IPPI Cakung</td>
                 <td class="tdpad">Rp. 350.000</td>
                 <td class="tdpad"></td>
             </tr>
