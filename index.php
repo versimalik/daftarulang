@@ -181,6 +181,12 @@ $hsl = mysqli_fetch_array($que);
                 <td class="tdpad"></td>
             </tr>
         </table>
+        <br>
+        <div align="center" style="font-size: 18px;">
+            Pembayaran dapat dilakukan melalui<br>
+            transfer ke rekening sekolah<br>
+            Bank BCA : 5980-309-021
+        </div>
     </div><!-- /.container -->
 <?php  
         }
@@ -254,6 +260,12 @@ $hsl = mysqli_fetch_array($que);
                 <td class="tdpad"></td>
             </tr>
         </table>
+        <br>
+        <div align="center" style="font-size: 18px;">
+            Pembayaran dapat dilakukan melalui<br>
+            transfer ke rekening sekolah<br>
+            Bank BCA : 5980-309-021
+        </div>
     </div><!-- /.container -->
 <!-- form ujian========================================================     -->	
 
