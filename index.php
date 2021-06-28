@@ -147,7 +147,7 @@ $hsl = mysqli_fetch_array($que);
             <tr>
                 <td style="text-align: center;">1</td>
                 <td class="tdpad">SMP IT YP IPPI Petojo</td>
-                <td class="tdpad">Rp. 300.000</td>
+                <td class="tdpad">Rp. 330.000</td>
                 <td class="tdpad"></td>
             </tr>
             <tr>
@@ -226,7 +226,7 @@ $hsl = mysqli_fetch_array($que);
             <tr>
                 <td style="text-align: center;">1</td>
                 <td class="tdpad">SMP IT YP IPPI Petojo</td>
-                <td class="tdpad">Rp. 300.000</td>
+                <td class="tdpad">Rp. 330.000</td>
                 <td class="tdpad"></td>
             </tr>
             <tr>
