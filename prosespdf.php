@@ -1,5 +1,5 @@
 <?php 
-// ini_set('display_errors', 1);
+ini_set('display_errors', 1);
 include "database.php";
 $id = $_POST['id'];
 
@@ -39,7 +39,7 @@ if(mysqli_num_rows($hasil) > 0)
 	$data = mysqli_fetch_array($hasil);
 	$konfig = mysqli_fetch_array($konfigurasi);
 	
-	$noujian = $data['no_ujian'];
+	// $noujian = $data['no_ujian'];
 	$cabang= ucfirst($data['cabang']);
 	$unit = strtoupper($data['unit']);
 
@@ -101,11 +101,9 @@ if(mysqli_num_rows($hasil) > 0)
 	$date = date("Y-m-d");
 
 	// var_dump(tgl_indo("2000-01-11"));
-	// die();
-	if($data['cabang']=="petojo")
-	{
+	// die()
 
-		$html='
+	$html='
 
 		<html>
 			<head>
@@ -192,6 +190,13 @@ if(mysqli_num_rows($hasil) > 0)
 				</style>
 			</head>
 			<body>
+
+	';
+
+	if($data['cabang']=="petojo")
+	{
+		$html.='
+		
 			<table border="0" width="100%" style="margin:0px 5 0px 0px 10px;">
 						<tr>
 							<td><img src="img/logoippi.png" style="width:130px; margin-left:35px;"/>
@@ -207,16 +212,46 @@ if(mysqli_num_rows($hasil) > 0)
 							</td>
 						</tr>
 				</table>
-				<table class="fontnormal" border="0">
+				<table class="fontnormal" border="0" width="100%">
 						<tr>
-							<td colspan="3">
+							<td>
 								'.$hr.'
 							</td>
 						</tr>
+				</table>';
+	}
+	else
+	{
+		$html.= '
+
+			<table border="0" width="100%" style="margin:0px 5 0px 0px 10px;">
+				<tr>
+					<td><img src="img/logoippi.png" style="width:130px; margin-left:65px;"/>
+					</td>
+					<td align="center" style="padding-right:35px;">
+						<span class="kopsedang">YAYASAN PERGURUAN</span><br/>	
+						<span class="kopsedang">INSTITUT PENGEMBANGAN PENDIDIKAN INDONESIA</span><br/>
+							<span class="kopsedang" style="font-size:18px; font-weight:bolder;">SEKOLAH MENENGAH ATAS (SMA)</span><br/>
+							<span class="kopsedang" style="font-size:18px; font-weight:bolder;">YP IPPI CAKUNG JAKARTA TIMUR</span><br/>
+							<span class="kopsedang" style="font-size:18px; font-weight:bolder;">TERAKREDITASI "A"</span><br/>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" style="border-top:1px solid black; border-bottom:4px double black; font-size:12px; text-align:center">
+						Jl. Ujung Krawang/ Jl. Kober Ujung RT. 006 RW. 05, Kelurahan Pulo Gebang Kecamatan Cakung Kota Administrasi Jakarta Timur
+					</td>
+				</tr>
+			</table>
+		';
+	}
+
+		$html.='
+				<table class="fontnormal" border="0">
 
 						<tr align="center">
 							<td colspan="3" style="line-height: 1;">
 								<div style=font-size:20px;>
+									<br>
 									<span>FORM DAFTAR ULANG PESERTA DIDIK</span><br>
 									<span>SMP - SMA - SMK YP IPPI JAKARTA</span><br>
 									<span>TAHUN PELAJARAN 2021 - 2022</span>
@@ -313,11 +348,6 @@ if(mysqli_num_rows($hasil) > 0)
 
 		';
 
-	}
-	else
-	{
-		echo "asjdkjashdkjash";
-	}
 
 }
 
