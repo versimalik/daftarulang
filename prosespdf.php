@@ -93,7 +93,25 @@ if(mysqli_num_rows($hasil) > 0)
 	// die();
 	// $jakarta= ($data['cabang']=="petojo") ? "Jakarta Pusat" : "Jakarta Timur";
 	$alamatippi = ($data['cabang']=="petojo") ? "Jl. Petojo Barat III No.2  Jakarta Pusat Telp. 6318984, 6313055 - Fax. 6313055" : "Jl. P. Komarudin Ujung Krawang Kober Limo, Pulogebang, Cakung - Jakarta Timur";
-	$emailsma = ($data['cabang']=="cakung")?"smas.ypippickg@gmail.com":"smaypippi_1951@yahoo.com";
+	$email = "";
+	if ($data['cabang']=='petojo')
+	{
+		switch ($data['unit']) {
+			case 'sma':
+				$email="smaypippi_1951@yahoo.com";
+				break;
+			case 'smk':
+				$email="smkypippip@gmail.co.id";
+				break;
+			case 'smp':
+				$email="smp.ypippi_1951@yahoo.co.id";
+				break;
+			
+			default:
+				$email="";
+				break;
+		}
+	}
 	$hr=($data['cabang']=="cakung")?"":"<hr style=border-width:2px; width:100%;>";
 
 	$noteb='<div style="background-color:#eed202; color:black; padding:10px; font-size:15px;">Form ini harus dibawa pada saat awal masuk sekolah.</div>';
@@ -186,6 +204,11 @@ if(mysqli_num_rows($hasil) > 0)
 						font-size: 16px;
 					}
 
+					.bordertd
+					{
+						border-top: 1px solid black;
+					}
+
 
 				</style>
 			</head>
@@ -208,7 +231,7 @@ if(mysqli_num_rows($hasil) > 0)
 								<span class="kopsedang">JAKARTA PUSAT</span><br/>
 								<span class="kopbesar">AKREDITASI : "A"</span><br/>
 								<span class="kopkecil">'.$alamatippi.'</span><br/>
-								<span class="kopkecil">Telp. (021) 48703207 Fax. (021)4808359 Email : '.$emailsma.'
+								<span class="kopkecil">Telp. (021) 48703207 Fax. (021)4808359 Email : '.$email.'
 							</td>
 						</tr>
 				</table>
@@ -247,7 +270,6 @@ if(mysqli_num_rows($hasil) > 0)
 
 		$html.='
 				<table class="fontnormal" border="0">
-
 						<tr align="center">
 							<td colspan="3" style="line-height: 1;">
 								<div style=font-size:20px;>
@@ -264,10 +286,10 @@ if(mysqli_num_rows($hasil) > 0)
 								<br><br>
 							</td>
 						</tr>
-						<tr align="justify">
+						<tr align="left">
 							<td colspan="3">
 								<div>
-									<table border="0" class="lulus">
+									<table border="0" class="lulus" style="margin-left: 120px;">
 										<tr>
 											<td>Nama</td>
 											<td>:</td>
@@ -313,14 +335,14 @@ if(mysqli_num_rows($hasil) > 0)
 											<td>:</td>
 											<td>'.$data['alamat'].'</td>
 										</tr>
-										<tr>
+										<tr>											
+											<div style="margin:5px 40px 0px 40px; text-align=justify"><br><br>Demikianlah form ini sebagai bukti anda telah melakukan daftar ulang dan anda berada di kelas tersebut. Terima kasih.
+											</div>
+										</tr>
 									</table>
 								</div>
-								<br><br>	
-								<div style="margin:5px 40px 0px 40px; text-align=justify">Demikianlah form ini sebagai bukti anda telah melakukan daftar ulang dan anda berada di kelas tersebut. Terima kasih.
-								</div>
 							</td>
-						</tr>
+						</tr>								
 					</table>
 					
 			<div>

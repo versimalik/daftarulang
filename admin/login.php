@@ -69,11 +69,11 @@ include "../database.php";
         $username = preg_replace('/[^a-zA-Z0-9]/', '', $username);
 		$password = MD5($_REQUEST['password']);
 		
-		$hasil = mysqli_query($db_conn,"SELECT * FROM un_user WHERE username='$username' AND password='$password'");
+		$hasil = mysqli_query($db_conn,"SELECT * FROM user WHERE username='$username' AND password='$password'");
 			if(mysqli_num_rows($hasil) > 0){
 				session_start();
 				$data = mysqli_fetch_array($hasil);
-				$_SESSION['logged'] = $data['UID'];
+				$_SESSION['logged'] = $data['id'];
 				$_SESSION['username'] = $data['username'];
                 /* jika fungsi: 
                         header('Location: ./'); 
