@@ -384,7 +384,7 @@ $dompdf->setPaper('A4', 'potrait');
 $dompdf->render();
 
 // $dompdf->stream('SKL_'.$nisn.'.pdf');	
-$dompdf->stream("skl2021-".$data['nisn'].".pdf", array("Attachment" => 0));
+$dompdf->stream("daftarulang2122-".$data['nisn'].".pdf", array("Attachment" => 0));
 // exit(0);
 
 
