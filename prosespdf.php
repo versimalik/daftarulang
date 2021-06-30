@@ -254,7 +254,7 @@ if(mysqli_num_rows($hasil) > 0)
 					<td align="center" style="padding-right:35px;">
 						<span class="kopsedang">YAYASAN PERGURUAN</span><br/>	
 						<span class="kopsedang">INSTITUT PENGEMBANGAN PENDIDIKAN INDONESIA</span><br/>
-							<span class="kopsedang" style="font-size:18px; font-weight:bolder;">SEKOLAH MENENGAH ATAS (SMA)</span><br/>
+							<span class="kopsedang" style="font-size:18px; font-weight:bolder;">'.$unitjudul.'</span><br/>
 							<span class="kopsedang" style="font-size:18px; font-weight:bolder;">YP IPPI CAKUNG JAKARTA TIMUR</span><br/>
 							<span class="kopsedang" style="font-size:18px; font-weight:bolder;">TERAKREDITASI "A"</span><br/>
 					</td>
