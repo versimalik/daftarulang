@@ -45,7 +45,7 @@ if(mysqli_num_rows($hasil) > 0)
 
 	// var_dump($cabang);
 	// die();
-	$jk = ($data['jk']=1)?"Laki - Laki": "Perempuan";
+	$jk = ($data['jenis_kelamin']==1)?"Laki - Laki": "Perempuan";
 	$unitjudul = ($data['unit']=="smp")?("SEKOLAH MENENGAH PERTAMA (SMP)"):($data['unit']=="sma"?"SEKOLAH MENENGAH ATAS (SMA)":"SEKOLAH MENENGAH KEJURUAN (SMK)");
 
 	
@@ -261,7 +261,7 @@ if(mysqli_num_rows($hasil) > 0)
 				</tr>
 				<tr>
 					<td colspan="2" style="border-top:1px solid black; border-bottom:4px double black; font-size:12px; text-align:center">
-						Jl. Ujung Krawang/ Jl. Kober Ujung RT. 006 RW. 05, Kelurahan Pulo Gebang Kecamatan Cakung Kota Administrasi Jakarta Timur
+						Jl. Ujung Krawang / Jl. Kober Ujung RT. 006 RW. 05, Kelurahan Pulo Gebang Kecamatan Cakung Kota Administrasi Jakarta Timur
 					</td>
 				</tr>
 			</table>
