@@ -59,7 +59,7 @@ $hsl = mysqli_fetch_array($que);
 <?=$hsl['tahun'] ?></h2> -->
         <h3 align="center" style="font-weight: bold;">Form Daftar Ulang Peserta Didik</h3>
         <h3 align="center" style="font-weight: bold;">SMP - SMA - SMK YP IPPI Jakarta</h3>
-        <h3 align="center" style="font-weight: bold;">Tahun Pelajaran 2021/2022</h3>
+        <h3 align="center" style="font-weight: bold;">Tahun Pelajaran 2022/2023</h3>
         <!-- countdown -->
         
         <div id="clock" class="lead"></div>
@@ -147,19 +147,19 @@ $hsl = mysqli_fetch_array($que);
             <tr>
                 <td style="text-align: center;">1</td>
                 <td class="tdpad">SMP IT YP IPPI Petojo</td>
-                <td class="tdpad">Rp. 330.000</td>
+                <td class="tdpad">Rp. 350.000</td>
                 <td class="tdpad"></td>
             </tr>
             <tr>
                 <td style="text-align: center;">2</td>
                 <td class="tdpad">SMA YP IPPI Petojo</td>
-                <td class="tdpad">Rp. 350.000</td>
+                <td class="tdpad">Rp. 400.000</td>
                 <td class="tdpad"></td>
             </tr>
             <tr>
                 <td style="text-align: center;">3</td>
                 <td class="tdpad">SMK YP IPPI Petojo</td>
-                <td class="tdpad">Rp. 350.000</td>
+                <td class="tdpad">Rp. 400.000</td>
                 <td class="tdpad"></td>
             </tr>
             <tr>
@@ -171,13 +171,13 @@ $hsl = mysqli_fetch_array($que);
             <tr>
                 <td style="text-align: center;">5</td>
                 <td class="tdpad">SMA IT YP IPPI Cakung</td>
-                <td class="tdpad">Rp. 350.000</td>
+                <td class="tdpad">Rp. 400.000</td>
                 <td class="tdpad"></td>
             </tr>
             <tr>
                 <td style="text-align: center;">6</td>
                 <td class="tdpad">SMK IT YP IPPI Cakung</td>
-                <td class="tdpad">Rp. 350.000</td>
+                <td class="tdpad">Rp. 400.000</td>
                 <td class="tdpad"></td>
             </tr>
         </table>
@@ -226,19 +226,19 @@ $hsl = mysqli_fetch_array($que);
             <tr>
                 <td style="text-align: center;">1</td>
                 <td class="tdpad">SMP IT YP IPPI Petojo</td>
-                <td class="tdpad">Rp. 330.000</td>
+                <td class="tdpad">Rp. 350.000</td>
                 <td class="tdpad"></td>
             </tr>
             <tr>
                 <td style="text-align: center;">2</td>
                 <td class="tdpad">SMA YP IPPI Petojo</td>
-                <td class="tdpad">Rp. 350.000</td>
+                <td class="tdpad">Rp. 400.000</td>
                 <td class="tdpad"></td>
             </tr>
             <tr>
                 <td style="text-align: center;">3</td>
                 <td class="tdpad">SMK YP IPPI Petojo</td>
-                <td class="tdpad">Rp. 350.000</td>
+                <td class="tdpad">Rp. 400.000</td>
                 <td class="tdpad"></td>
             </tr>
             <tr>
@@ -250,13 +250,13 @@ $hsl = mysqli_fetch_array($que);
             <tr>
                 <td style="text-align: center;">5</td>
                 <td class="tdpad">SMA IT YP IPPI Cakung</td>
-                <td class="tdpad">Rp. 350.000</td>
+                <td class="tdpad">Rp. 400.000</td>
                 <td class="tdpad"></td>
             </tr>
             <tr>
                 <td style="text-align: center;">6</td>
                 <td class="tdpad">SMK IT YP IPPI Cakung</td>
-                <td class="tdpad">Rp. 350.000</td>
+                <td class="tdpad">Rp. 400.000</td>
                 <td class="tdpad"></td>
             </tr>
         </table>
